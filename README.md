@@ -2,11 +2,11 @@
 
 Hello dude, it's my own repository for configuration in i3wm.
 
-###OS
+### OS
 
 ArchLinux x86_64 Linux 4.9.8.1-ARCH
 
-###Packages
+### Packages
 
 I am use:
 
