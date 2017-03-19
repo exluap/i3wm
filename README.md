@@ -45,3 +45,7 @@ w3m
 oh-my-zsh
 
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+
+ulauncher
+
+`yaourt -S ulauncher`
