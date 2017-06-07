@@ -56,4 +56,4 @@ xterm as terminal emulator
 
 ### Screenshot
 
-Coming soon
+[!june 2017](https://github.com/exluap/i3wm/raw/master/screenshots/june_2017.jpg)
