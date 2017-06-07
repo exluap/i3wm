@@ -12,7 +12,7 @@ cp ~/.Xresources ~/i3wm/
 # Copying .config directory
 
 cp ~/.config/i3/config ~/i3wm/.config/i3/
-cp -r ~/.config/ranger/ ~/i3wm/ranger/
+cp -r ~/.config/ranger/ ~/i3wm/.config/ranger/
 
 cd ~/i3wm/
 git add .
