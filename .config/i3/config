@@ -41,7 +41,7 @@ floating_modifier $mod
 #...........
 
 # App Menu
-bindsym F10 exec i3-dmenu-desktop
+bindsym $mod+u exec --no-startup-id i3-dmenu-desktop --dmenu='rofi -i -dmenu'
 
 #Volume
 bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
@@ -147,7 +147,8 @@ bindsym $mod+Shift+q exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 bindsym $mod+n exec ranger
 
 #Screenshot
-bindsym $mod+0xff57 exec scrot  ~/Изображения/Screenshots/screenshot_%Y_%m_%d_%H_%M_%S.png
+bindsym Print exec spectacle -f
+bindsym shift+Print exec spectacle -r
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
