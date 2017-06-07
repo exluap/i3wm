@@ -18,7 +18,7 @@ ArchLinux x86_64 Linux 4.11.3-1-ARCH with Xorg and Gnome 3
 ![june 2017](https://github.com/exluap/i3wm/raw/master/screenshots/june_2017.jpg)
 
 
-### Packages
+### Applitacions
 
 In my config i use:
 - conky
