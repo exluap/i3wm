@@ -4,7 +4,7 @@ Hello dude, it's my own repository for configuration in i3wm.
 
 ### OS
 
-ArchLinux x86_64 Linux 4.9.8.1-ARCH
+ArchLinux x86_64 Linux 4.11.3-1-ARCH
 
 ### Packages
 
@@ -22,9 +22,9 @@ zsh
 
 `sudo pacman -S zsh`
 
-dmenu
+rofi
 
-`sudo pacman -S dmenu`
+`sudo pacman -S rofi`
 
 sublime-text-3
 
@@ -38,14 +38,22 @@ nitrogen
 
 `sudo pacman -S nitrogen`
 
-w3m
-
-`sudo pacman -S w3m`
-
 oh-my-zsh
 
 `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
-ulauncher
+spectacle for screenshots
 
-`yaourt -S ulauncher`
+`sudo pacman -S spectacle`
+
+font Droid
+
+`sudo pacman -S ttf-droid`
+
+xterm as terminal emulator
+
+`sudo pacman -S xterm`
+
+### Screenshot
+
+Coming soon
