@@ -219,3 +219,8 @@ exec setxkbmap "us,ru", winkeys "grp:shift_alt_toggle"
 # Wallpapers
 
 exec --no-startup-id nitrogen --restore
+
+# Keyboard layout
+
+exec --no-startup-id xxkb
+exec nm-applet &
