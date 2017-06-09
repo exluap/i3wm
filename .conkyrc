@@ -75,7 +75,7 @@ TEXT
 
 ##vol
   {"full_text" : "vol", "color" : "\#344169" },
-  {"full_text" : "${exec amixer sget Master | grep -e 'Front Left:' | sed 's/[^\[]*\[\([0-9]\{1,3\}%\).*\(on\|off\).*/\2 \1/' | sed 's/off/Muted/' | sed 's/on //'}" , "color" :"\#CFCFD9" },
+  {"full_text" : "${exec amixer sget Master | grep Mono: | cut -d " " -f6 | cut -d "[" -f2 | cut -d "]" -f1}" , "color" : "\#CFCFD9" },
 
 #bat
   {"full_text" : "bat", "color" : "\#344169" },
