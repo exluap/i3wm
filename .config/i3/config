@@ -224,3 +224,5 @@ exec --no-startup-id nitrogen --restore
 
 exec --no-startup-id xxkb
 exec nm-applet &
+exec export GOPATH=$HOME/go
+exec export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
