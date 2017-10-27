@@ -71,11 +71,11 @@ TEXT
 ##WiFi
 
 {"full_text" : "WiFi" , "color" : "\#b72f62" },
-{"full_text" : "${wireless_essid wlp1s0}"},
+{"full_text" : "${wireless_essid wlp5s0}"},
 
 ##vol
   {"full_text" : "vol", "color" : "\#344169" },
-  {"full_text" : "${exec amixer sget Master | grep Mono: | cut -d " " -f6 | cut -d "[" -f2 | cut -d "]" -f1}" , "color" : "\#CFCFD9" },
+  {"full_text" : "${exec amixer sget Master | grep Mono: | cut -d " " -f6 | cut -d "[" -f2 | cut -d "]" -f1}" , "color" :"\#CFCFD9" },
 
 #bat
   {"full_text" : "bat", "color" : "\#344169" },

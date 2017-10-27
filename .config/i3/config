@@ -12,8 +12,8 @@ font -*-Droid-Sans-Mono-*-*-*-14-*-*-*-*-*-*-*
 # windows
 #..........
 
-new_window 1pixel
-new_float 1pixel
+#new_window 1pixel
+#new_float 1pixel
 
 #..........
 # colors
@@ -217,7 +217,7 @@ for_window [class="Google-chrome"] border none
 exec setxkbmap "us,ru", winkeys "grp:shift_alt_toggle"
 
 # Wallpapers
-
+exec xrandr --output eDP-1 --primary --mode 1366x768 --output VGA-1 --mode 1680x1050 --left-of eDP-1
 exec --no-startup-id nitrogen --restore
 
 # Keyboard layout
