@@ -14,6 +14,11 @@ cp ~/.Xresources ~/i3wm/
 cp ~/.config/i3/config ~/i3wm/.config/i3/
 cp -r ~/.config/ranger/ ~/i3wm/.config/ranger/
 
+
+# Copying /etc/
+
+cp /etc/ntp.conf ~/i3wm/etc/
+
 cd ~/i3wm/
 git add .
 read -p "Commit message ? " answer
